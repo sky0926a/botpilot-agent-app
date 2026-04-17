@@ -36,7 +36,6 @@ AGENT_BIN_DIR="$HOME/bin" curl -fsSL https://raw.githubusercontent.com/sky0926a/
 | Target                | Binary asset                            |
 | --------------------- | --------------------------------------- |
 | macOS Apple Silicon   | `botpilot-agent-bun-darwin-arm64`       |
-| macOS Intel           | `botpilot-agent-bun-darwin-x64`         |
 | Linux x86_64          | `botpilot-agent-bun-linux-x64`          |
 | Linux ARM64           | `botpilot-agent-bun-linux-arm64`        |
 

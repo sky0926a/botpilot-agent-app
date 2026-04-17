@@ -17,7 +17,7 @@ AGENT_VERSION="${AGENT_VERSION:-latest}"
 DEFAULT_BIN_DIR="/usr/local/bin"
 FALLBACK_BIN_DIR="${HOME}/.local/bin"
 
-SUPPORTED_TARGETS="bun-darwin-arm64 bun-darwin-x64 bun-linux-x64 bun-linux-arm64"
+SUPPORTED_TARGETS="bun-darwin-arm64 bun-linux-x64 bun-linux-arm64"
 
 say() { printf '%s\n' "$*"; }
 die() { printf 'install-agent: %s\n' "$*" >&2; exit 1; }
